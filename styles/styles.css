@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    list-style: none;
+}
+
+body{
+    background-color: #9A208C;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.titulo{
+    color: #E11299;
+    padding: 10px;
+    width: 420px;
+    height: 50px;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjetas img{
+    width: 80px;
+}
+#bitacora-capitan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#comandos-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+b{
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid hotpink;
+}
+h2{
+    padding: 10px;
+    box-sizing: border-box;
+    color: azure;
+    background-color: tomato;
+}
+
+button{
+    margin: 0 50px;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 25px;
+    border: none;
+    background: #FFEAEA;
+    color: #E11299;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+    font-family: 'Poppins', sans-serif;
+}
+button span{
+    /* position: absolute; */
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    background: transparent;
+    top: -50%;
+    left: -100%;
+    transition: 0.3s;
+}
+button:hover span{
+    left: -10%;
+}
+button:hover{
+    color: #c0e4da;
+    background: #033133;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}
+#butoon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#comandos-basicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:#9A208C;
+    border-radius: 50%;
+}
+#button-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
